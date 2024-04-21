@@ -1,0 +1,8 @@
+conda create -n py38 python=3.8：创建一个名为py38的新环境，并安装Python 3.8。
+conda activate py38：激活名为py38的环境。
+conda deactivate：退出当前激活的环境。
+conda install package_name：在当前环境中安装包名为package_name的包。
+conda remove package_name：在当前环境中卸载包名为package_name的包。
+conda env list：列出所有已创建的环境。
+conda env export > environment.yml：导出当前环境的配置信息到environment.yml文件中。
+conda env create -f environment.yml：根据environment.yml文件中的配置信息创建一个新的环境。
